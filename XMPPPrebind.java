@@ -133,7 +133,7 @@ public class XMPPPrebind {
 
 	public static void main(String[] args) {
 
-		XMPPPrebind xmpp = new XMPPPrebind("http://localhost:5280/http-bind/", "eteam", "admin", "admin");
+		XMPPPrebind xmpp = new XMPPPrebind("http://localhost:5280/http-bind/", "domain", "uname", "password");
 
 		try {
 			xmpp.connect();
